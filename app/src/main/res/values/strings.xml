@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">APK提取器</string>
+
+    <string name="action_setting">设置</string>
+    <string name="action_all">全部</string>
+    <string name="action_personal">个人</string>
+    <string name="action_system">系统</string>
+
+</resources>

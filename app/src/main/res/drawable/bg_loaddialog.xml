@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!--控制四个角的圆角大小-->
+    <corners
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp">
+
+    </corners>
+
+    <!--控制外面那一层边框的颜色和宽度-->
+    <stroke
+        android:width="0.5dp"
+        android:color="#00ffffff">
+
+    </stroke>
+
+    <!--内部颜色-->
+    <solid android:color="@color/translucent_gray_half"></solid>
+</shape>
